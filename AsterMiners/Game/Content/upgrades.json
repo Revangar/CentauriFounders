@@ -1,0 +1,31 @@
+[
+  {
+    "identifier": "overcharged_coils",
+    "nameKey": "upgrade_overcharged_coils",
+    "descriptionKey": "upgrade_overcharged_coils_desc",
+    "modifiers": {
+      "fireRate": 0.5,
+      "damage": 0.2
+    },
+    "tags": ["beam", "energy"]
+  },
+  {
+    "identifier": "crystal_spurs",
+    "nameKey": "upgrade_crystal_spurs",
+    "descriptionKey": "upgrade_crystal_spurs_desc",
+    "modifiers": {
+      "movement": 0.3
+    },
+    "tags": ["mobility"]
+  },
+  {
+    "identifier": "warden_shell",
+    "nameKey": "upgrade_warden_shell",
+    "descriptionKey": "upgrade_warden_shell_desc",
+    "modifiers": {
+      "shield": 0.35,
+      "light": 0.4
+    },
+    "tags": ["defense"]
+  }
+]

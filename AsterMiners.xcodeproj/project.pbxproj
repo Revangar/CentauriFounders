@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+00A1A01B2C3D4E5F00000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A01A2C3D4E5F00000001 /* AppDelegate.swift */; };
+00A1A01C2C3D4E5F00000001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0192C3D4E5F00000001 /* SceneDelegate.swift */; };
+00A1A01D2C3D4E5F00000001 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0182C3D4E5F00000001 /* GameViewController.swift */; };
+00A1A0302C3D4E5F00000001 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02F2C3D4E5F00000001 /* Time.swift */; };
+00A1A0312C3D4E5F00000001 /* InputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02E2C3D4E5F00000001 /* InputState.swift */; };
+00A1A0322C3D4E5F00000001 /* RNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02D2C3D4E5F00000001 /* RNG.swift */; };
+00A1A0332C3D4E5F00000001 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02C2C3D4E5F00000001 /* SaveService.swift */; };
+00A1A0342C3D4E5F00000001 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02B2C3D4E5F00000001 /* LocalizationService.swift */; };
+00A1A0352C3D4E5F00000001 /* SimulationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A02A2C3D4E5F00000001 /* SimulationCoordinator.swift */; };
+00A1A0362C3D4E5F00000001 /* InputStateActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0292C3D4E5F00000001 /* InputStateActor.swift */; };
+00A1A0372C3D4E5F00000001 /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0282C3D4E5F00000001 /* Bootstrap.swift */; };
+00A1A0382C3D4E5F00000001 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0272C3D4E5F00000001 /* Entity.swift */; };
+00A1A0392C3D4E5F00000001 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0262C3D4E5F00000001 /* World.swift */; };
+00A1A03A2C3D4E5F00000001 /* World+Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0252C3D4E5F00000001 /* World+Access.swift */; };
+00A1A03B2C3D4E5F00000001 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0242C3D4E5F00000001 /* System.swift */; };
+00A1A03C2C3D4E5F00000001 /* MovementSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0232C3D4E5F00000001 /* MovementSystem.swift */; };
+00A1A03D2C3D4E5F00000001 /* CombatSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0222C3D4E5F00000001 /* CombatSystem.swift */; };
+00A1A03E2C3D4E5F00000001 /* SpawningSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0212C3D4E5F00000001 /* SpawningSystem.swift */; };
+00A1A03F2C3D4E5F00000001 /* MiningSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0202C3D4E5F00000001 /* MiningSystem.swift */; };
+00A1A0402C3D4E5F00000001 /* UpgradeSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A01F2C3D4E5F00000001 /* UpgradeSystem.swift */; };
+00A1A0412C3D4E5F00000001 /* LootSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A01E2C3D4E5F00000001 /* LootSystem.swift */; };
+00A1A0422C3D4E5F00000001 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0172C3D4E5F00000001 /* ParticleSystem.swift */; };
+00A1A0432C3D4E5F00000001 /* AudioSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0162C3D4E5F00000001 /* AudioSystem.swift */; };
+00A1A0442C3D4E5F00000001 /* LightingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0152C3D4E5F00000001 /* LightingSystem.swift */; };
+00A1A0452C3D4E5F00000001 /* EnemySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0142C3D4E5F00000001 /* EnemySystem.swift */; };
+00A1A0462C3D4E5F00000001 /* BossSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0132C3D4E5F00000001 /* BossSystem.swift */; };
+00A1A0472C3D4E5F00000001 /* AssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0122C3D4E5F00000001 /* AssetLoader.swift */; };
+00A1A0482C3D4E5F00000001 /* MeshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0112C3D4E5F00000001 /* MeshLibrary.swift */; };
+00A1A0492C3D4E5F00000001 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0102C3D4E5F00000001 /* Renderer.swift */; };
+00A1A04A2C3D4E5F00000001 /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00F2C3D4E5F00000001 /* PostProcessor.swift */; };
+00A1A04B2C3D4E5F00000001 /* ArenaGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00E2C3D4E5F00000001 /* ArenaGenerator.swift */; };
+00A1A04C2C3D4E5F00000001 /* EntityFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00D2C3D4E5F00000001 /* EntityFactory.swift */; };
+00A1A04D2C3D4E5F00000001 /* UpgradeCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00C2C3D4E5F00000001 /* UpgradeCatalog.swift */; };
+00A1A04E2C3D4E5F00000001 /* EnemyCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00B2C3D4E5F00000001 /* EnemyCatalog.swift */; };
+00A1A04F2C3D4E5F00000001 /* MainMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A00A2C3D4E5F00000001 /* MainMenuViewModel.swift */; };
+00A1A0502C3D4E5F00000001 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0092C3D4E5F00000001 /* MainMenuView.swift */; };
+00A1A0512C3D4E5F00000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0082C3D4E5F00000001 /* SettingsView.swift */; };
+00A1A0522C3D4E5F00000001 /* MetaProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0072C3D4E5F00000001 /* MetaProgressionView.swift */; };
+00A1A0532C3D4E5F00000001 /* HUDOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0062C3D4E5F00000001 /* HUDOverlayView.swift */; };
+00A1A0542C3D4E5F00000001 /* weapons.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0052C3D4E5F00000001 /* weapons.json */; };
+00A1A0552C3D4E5F00000001 /* enemies.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0042C3D4E5F00000001 /* enemies.json */; };
+00A1A0562C3D4E5F00000001 /* upgrades.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0032C3D4E5F00000001 /* upgrades.json */; };
+00A1A0572C3D4E5F00000001 /* biomes.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0022C3D4E5F00000001 /* biomes.json */; };
+00A1A0582C3D4E5F00000001 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0012C3D4E5F00000001 /* Shaders.metal */; };
+00A1A05F2C3D4E5F00000001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05E2C3D4E5F00000001 /* LaunchScreen.storyboard */; };
+00A1A0602C3D4E5F00000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05C2C3D4E5F00000001 /* Localizable.strings */; };
+00A1A0612C3D4E5F00000001 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05B2C3D4E5F00000001 /* Localizable.stringsdict */; };
+00A1A0622C3D4E5F00000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0592C3D4E5F00000001 /* Localizable.strings */; };
+00A1A0632C3D4E5F00000001 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05A2C3D4E5F00000001 /* Localizable.stringsdict */; };
+00A1A0762C3D4E5F00000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05C2C3D4E5F00000001 /* Localizable.strings */; };
+00A1A0772C3D4E5F00000001 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05B2C3D4E5F00000001 /* Localizable.stringsdict */; };
+00A1A0782C3D4E5F00000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A0592C3D4E5F00000001 /* Localizable.strings */; };
+00A1A0792C3D4E5F00000001 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A05A2C3D4E5F00000001 /* Localizable.stringsdict */; };
+00A1A0722C3D4E5F00000001 /* GameplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0712C3D4E5F00000001 /* GameplayTests.swift */; };
+00A1A0732C3D4E5F00000001 /* SaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A0702C3D4E5F00000001 /* SaveTests.swift */; };
+00A1A0742C3D4E5F00000001 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A06F2C3D4E5F00000001 /* LocalizationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+00A1A01A2C3D4E5F00000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+00A1A0192C3D4E5F00000001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+00A1A0182C3D4E5F00000001 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+00A1A02F2C3D4E5F00000001 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+00A1A02E2C3D4E5F00000001 /* InputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputState.swift; sourceTree = "<group>"; };
+00A1A02D2C3D4E5F00000001 /* RNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNG.swift; sourceTree = "<group>"; };
+00A1A02C2C3D4E5F00000001 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+00A1A02B2C3D4E5F00000001 /* LocalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationService.swift; sourceTree = "<group>"; };
+00A1A02A2C3D4E5F00000001 /* SimulationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationCoordinator.swift; sourceTree = "<group>"; };
+00A1A0292C3D4E5F00000001 /* InputStateActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStateActor.swift; sourceTree = "<group>"; };
+00A1A0282C3D4E5F00000001 /* Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
+00A1A0272C3D4E5F00000001 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+00A1A0262C3D4E5F00000001 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+00A1A0252C3D4E5F00000001 /* World+Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "World+Access.swift"; sourceTree = "<group>"; };
+00A1A0242C3D4E5F00000001 /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+00A1A0232C3D4E5F00000001 /* MovementSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementSystem.swift; sourceTree = "<group>"; };
+00A1A0222C3D4E5F00000001 /* CombatSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatSystem.swift; sourceTree = "<group>"; };
+00A1A0212C3D4E5F00000001 /* SpawningSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpawningSystem.swift; sourceTree = "<group>"; };
+00A1A0202C3D4E5F00000001 /* MiningSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningSystem.swift; sourceTree = "<group>"; };
+00A1A01F2C3D4E5F00000001 /* UpgradeSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeSystem.swift; sourceTree = "<group>"; };
+00A1A01E2C3D4E5F00000001 /* LootSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootSystem.swift; sourceTree = "<group>"; };
+00A1A0172C3D4E5F00000001 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
+00A1A0162C3D4E5F00000001 /* AudioSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSystem.swift; sourceTree = "<group>"; };
+00A1A0152C3D4E5F00000001 /* LightingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingSystem.swift; sourceTree = "<group>"; };
+00A1A0142C3D4E5F00000001 /* EnemySystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemySystem.swift; sourceTree = "<group>"; };
+00A1A0132C3D4E5F00000001 /* BossSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossSystem.swift; sourceTree = "<group>"; };
+00A1A0122C3D4E5F00000001 /* AssetLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLoader.swift; sourceTree = "<group>"; };
+00A1A0112C3D4E5F00000001 /* MeshLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibrary.swift; sourceTree = "<group>"; };
+00A1A0102C3D4E5F00000001 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+00A1A00F2C3D4E5F00000001 /* PostProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
+00A1A00E2C3D4E5F00000001 /* ArenaGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaGenerator.swift; sourceTree = "<group>"; };
+00A1A00D2C3D4E5F00000001 /* EntityFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFactory.swift; sourceTree = "<group>"; };
+00A1A00C2C3D4E5F00000001 /* UpgradeCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeCatalog.swift; sourceTree = "<group>"; };
+00A1A00B2C3D4E5F00000001 /* EnemyCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyCatalog.swift; sourceTree = "<group>"; };
+00A1A00A2C3D4E5F00000001 /* MainMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewModel.swift; sourceTree = "<group>"; };
+00A1A0092C3D4E5F00000001 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+00A1A0082C3D4E5F00000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+00A1A0072C3D4E5F00000001 /* MetaProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaProgressionView.swift; sourceTree = "<group>"; };
+00A1A0062C3D4E5F00000001 /* HUDOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDOverlayView.swift; sourceTree = "<group>"; };
+00A1A0052C3D4E5F00000001 /* weapons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weapons.json; sourceTree = "<group>"; };
+00A1A0042C3D4E5F00000001 /* enemies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = enemies.json; sourceTree = "<group>"; };
+00A1A0032C3D4E5F00000001 /* upgrades.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = upgrades.json; sourceTree = "<group>"; };
+00A1A0022C3D4E5F00000001 /* biomes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = biomes.json; sourceTree = "<group>"; };
+00A1A0012C3D4E5F00000001 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+00A1A05E2C3D4E5F00000001 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+00A1A05D2C3D4E5F00000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+00A1A05C2C3D4E5F00000001 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+00A1A05B2C3D4E5F00000001 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+00A1A05A2C3D4E5F00000001 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+00A1A0592C3D4E5F00000001 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+00A1A0712C3D4E5F00000001 /* GameplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayTests.swift; sourceTree = "<group>"; };
+00A1A0702C3D4E5F00000001 /* SaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTests.swift; sourceTree = "<group>"; };
+00A1A06F2C3D4E5F00000001 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+00A1A0752C3D4E5F00000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+00A1A0802C3D4E5F00000001 /* AsterMiners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsterMiners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+00A1A0812C3D4E5F00000001 /* AsterMinersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsterMinersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+00A1A0872C3D4E5F00000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+00A1A0902C3D4E5F00000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+00A1A0002C3D4E5F00000001 = {
+isa = PBXGroup;
+children = (
+00A1A0822C3D4E5F00000001 /* App */,
+00A1A0852C3D4E5F00000001 /* Engine */,
+00A1A0842C3D4E5F00000001 /* Game */,
+00A1A0832C3D4E5F00000001 /* UI */,
+00A1A0862C3D4E5F00000001 /* Resources */,
+00A1A06E2C3D4E5F00000001 /* Tests */,
+00A1A0802C3D4E5F00000001 /* Products */
+);
+sourceTree = "<group>";
+};
+00A1A0802C3D4E5F00000001 /* Products */ = {
+isa = PBXGroup;
+children = (
+00A1A0802C3D4E5F00000001 /* AsterMiners.app */,
+00A1A0812C3D4E5F00000001 /* AsterMinersTests.xctest */
+);
+name = Products;
+sourceTree = "<group>";
+};
+00A1A0822C3D4E5F00000001 /* App */ = {
+isa = PBXGroup;
+children = (
+00A1A01A2C3D4E5F00000001 /* AppDelegate.swift */,
+00A1A0192C3D4E5F00000001 /* SceneDelegate.swift */,
+00A1A0182C3D4E5F00000001 /* GameViewController.swift */,
+00A1A05D2C3D4E5F00000001 /* Info.plist */,
+00A1A05E2C3D4E5F00000001 /* LaunchScreen.storyboard */
+);
+path = AsterMiners/App;
+sourceTree = "<group>";
+};
+00A1A0832C3D4E5F00000001 /* UI */ = {
+isa = PBXGroup;
+children = (
+00A1A0882C3D4E5F00000001 /* Menus */,
+00A1A0892C3D4E5F00000001 /* HUD */
+);
+path = AsterMiners/UI;
+sourceTree = "<group>";
+};
+00A1A0882C3D4E5F00000001 /* Menus */ = {
+isa = PBXGroup;
+children = (
+00A1A00A2C3D4E5F00000001 /* MainMenuViewModel.swift */,
+00A1A0092C3D4E5F00000001 /* MainMenuView.swift */,
+00A1A0082C3D4E5F00000001 /* SettingsView.swift */,
+00A1A0072C3D4E5F00000001 /* MetaProgressionView.swift */
+);
+path = Menus;
+sourceTree = "<group>";
+};
+00A1A0892C3D4E5F00000001 /* HUD */ = {
+isa = PBXGroup;
+children = (
+00A1A0062C3D4E5F00000001 /* HUDOverlayView.swift */
+);
+path = HUD;
+sourceTree = "<group>";
+};
+00A1A0842C3D4E5F00000001 /* Game */ = {
+isa = PBXGroup;
+children = (
+00A1A08A2C3D4E5F00000001 /* Content */,
+00A1A08B2C3D4E5F00000001 /* Localization */,
+00A1A08C2C3D4E5F00000001 /* Entities */,
+00A1A08D2C3D4E5F00000001 /* Upgrades */,
+00A1A08E2C3D4E5F00000001 /* Enemies */,
+00A1A08F2C3D4E5F00000001 /* Biomes */
+);
+path = AsterMiners/Game;
+sourceTree = "<group>";
+};
+00A1A08A2C3D4E5F00000001 /* Content */ = {
+isa = PBXGroup;
+children = (
+00A1A0052C3D4E5F00000001 /* weapons.json */,
+00A1A0042C3D4E5F00000001 /* enemies.json */,
+00A1A0032C3D4E5F00000001 /* upgrades.json */,
+00A1A0022C3D4E5F00000001 /* biomes.json */
+);
+path = Content;
+sourceTree = "<group>";
+};
+00A1A08B2C3D4E5F00000001 /* Localization */ = {
+isa = PBXGroup;
+children = (
+00A1A05C2C3D4E5F00000001 /* Localizable.strings */,
+00A1A05B2C3D4E5F00000001 /* Localizable.stringsdict */,
+00A1A0592C3D4E5F00000001 /* Localizable.strings */,
+00A1A05A2C3D4E5F00000001 /* Localizable.stringsdict */
+);
+path = Localization;
+sourceTree = "<group>";
+};
+00A1A08C2C3D4E5F00000001 /* Entities */ = {
+isa = PBXGroup;
+children = (
+00A1A00D2C3D4E5F00000001 /* EntityFactory.swift */
+);
+path = Entities;
+sourceTree = "<group>";
+};
+00A1A08D2C3D4E5F00000001 /* Upgrades */ = {
+isa = PBXGroup;
+children = (
+00A1A00C2C3D4E5F00000001 /* UpgradeCatalog.swift */
+);
+path = Upgrades;
+sourceTree = "<group>";
+};
+00A1A08E2C3D4E5F00000001 /* Enemies */ = {
+isa = PBXGroup;
+children = (
+00A1A00B2C3D4E5F00000001 /* EnemyCatalog.swift */
+);
+path = Enemies;
+sourceTree = "<group>";
+};
+00A1A08F2C3D4E5F00000001 /* Biomes */ = {
+isa = PBXGroup;
+children = (
+00A1A00E2C3D4E5F00000001 /* ArenaGenerator.swift */
+);
+path = Biomes;
+sourceTree = "<group>";
+};
+00A1A0852C3D4E5F00000001 /* Engine */ = {
+isa = PBXGroup;
+children = (
+00A1A0932C3D4E5F00000001 /* Core */,
+00A1A0942C3D4E5F00000001 /* ECS */,
+00A1A0952C3D4E5F00000001 /* Systems */,
+00A1A0962C3D4E5F00000001 /* Assets */,
+00A1A0972C3D4E5F00000001 /* Rendering */
+);
+path = AsterMiners/Engine;
+sourceTree = "<group>";
+};
+00A1A0932C3D4E5F00000001 /* Core */ = {
+isa = PBXGroup;
+children = (
+00A1A02F2C3D4E5F00000001 /* Time.swift */,
+00A1A02E2C3D4E5F00000001 /* InputState.swift */,
+00A1A0292C3D4E5F00000001 /* InputStateActor.swift */,
+00A1A02D2C3D4E5F00000001 /* RNG.swift */,
+00A1A02C2C3D4E5F00000001 /* SaveService.swift */,
+00A1A02B2C3D4E5F00000001 /* LocalizationService.swift */,
+00A1A02A2C3D4E5F00000001 /* SimulationCoordinator.swift */,
+00A1A0282C3D4E5F00000001 /* Bootstrap.swift */
+);
+path = Core;
+sourceTree = "<group>";
+};
+00A1A0942C3D4E5F00000001 /* ECS */ = {
+isa = PBXGroup;
+children = (
+00A1A0272C3D4E5F00000001 /* Entity.swift */,
+00A1A0262C3D4E5F00000001 /* World.swift */,
+00A1A0252C3D4E5F00000001 /* World+Access.swift */
+);
+path = ECS;
+sourceTree = "<group>";
+};
+00A1A0952C3D4E5F00000001 /* Systems */ = {
+isa = PBXGroup;
+children = (
+00A1A0242C3D4E5F00000001 /* System.swift */,
+00A1A0232C3D4E5F00000001 /* MovementSystem.swift */,
+00A1A0222C3D4E5F00000001 /* CombatSystem.swift */,
+00A1A0212C3D4E5F00000001 /* SpawningSystem.swift */,
+00A1A0202C3D4E5F00000001 /* MiningSystem.swift */,
+00A1A01F2C3D4E5F00000001 /* UpgradeSystem.swift */,
+00A1A01E2C3D4E5F00000001 /* LootSystem.swift */,
+00A1A0172C3D4E5F00000001 /* ParticleSystem.swift */,
+00A1A0162C3D4E5F00000001 /* AudioSystem.swift */,
+00A1A0152C3D4E5F00000001 /* LightingSystem.swift */,
+00A1A0142C3D4E5F00000001 /* EnemySystem.swift */,
+00A1A0132C3D4E5F00000001 /* BossSystem.swift */
+);
+path = Systems;
+sourceTree = "<group>";
+};
+00A1A0962C3D4E5F00000001 /* Assets */ = {
+isa = PBXGroup;
+children = (
+00A1A0122C3D4E5F00000001 /* AssetLoader.swift */
+);
+path = Assets;
+sourceTree = "<group>";
+};
+00A1A0972C3D4E5F00000001 /* Rendering */ = {
+isa = PBXGroup;
+children = (
+00A1A0112C3D4E5F00000001 /* MeshLibrary.swift */,
+00A1A0102C3D4E5F00000001 /* Renderer.swift */,
+00A1A00F2C3D4E5F00000001 /* PostProcessor.swift */,
+00A1A0012C3D4E5F00000001 /* Shaders.metal */
+);
+path = Rendering;
+sourceTree = "<group>";
+};
+00A1A0862C3D4E5F00000001 /* Resources */ = {
+isa = PBXGroup;
+children = (
+00A1A05E2C3D4E5F00000001 /* LaunchScreen.storyboard */
+);
+path = AsterMiners/Resources;
+sourceTree = "<group>";
+};
+00A1A06E2C3D4E5F00000001 /* Tests */ = {
+isa = PBXGroup;
+children = (
+00A1A0712C3D4E5F00000001 /* GameplayTests.swift */,
+00A1A0702C3D4E5F00000001 /* SaveTests.swift */,
+00A1A06F2C3D4E5F00000001 /* LocalizationTests.swift */,
+00A1A0752C3D4E5F00000001 /* Info.plist */
+);
+path = AsterMiners/Tests;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+00A1A07E2C3D4E5F00000001 /* AsterMiners */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 00A1A09A2C3D4E5F00000001 /* Build configuration list for PBXNativeTarget "AsterMiners" */;
+buildPhases = (
+00A1A0882C3D4E5F00000002 /* Sources */,
+00A1A0872C3D4E5F00000001 /* Frameworks */,
+00A1A0862C3D4E5F00000001 /* Resources */
+);
+buildRules = ( );
+dependencies = ( );
+name = AsterMiners;
+productName = AsterMiners;
+productReference = 00A1A0802C3D4E5F00000001 /* AsterMiners.app */;
+productType = "com.apple.product-type.application";
+};
+00A1A07F2C3D4E5F00000001 /* AsterMinersTests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 00A1A09D2C3D4E5F00000001 /* Build configuration list for PBXNativeTarget "AsterMinersTests" */;
+buildPhases = (
+00A1A08A2C3D4E5F00000002 /* Sources */,
+00A1A0902C3D4E5F00000001 /* Frameworks */,
+00A1A08B2C3D4E5F00000002 /* Resources */
+);
+buildRules = ( );
+dependencies = (
+00A1A0922C3D4E5F00000001 /* PBXTargetDependency */
+);
+name = AsterMinersTests;
+productName = AsterMinersTests;
+productReference = 00A1A0812C3D4E5F00000001 /* AsterMinersTests.xctest */;
+productType = "com.apple.product-type.bundle.unit-test";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+00A1A07D2C3D4E5F00000001 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1540;
+LastUpgradeCheck = 1540;
+TargetAttributes = {
+00A1A07E2C3D4E5F00000001 = {
+CreatedOnToolsVersion = 15.4;
+};
+00A1A07F2C3D4E5F00000001 = {
+CreatedOnToolsVersion = 15.4;
+};
+};
+};
+buildConfigurationList = 00A1A09E2C3D4E5F00000001 /* Build configuration list for PBXProject "AsterMiners" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+ru
+);
+mainGroup = 00A1A0002C3D4E5F00000001;
+productRefGroup = 00A1A0802C3D4E5F00000001 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+00A1A07E2C3D4E5F00000001 /* AsterMiners */,
+00A1A07F2C3D4E5F00000001 /* AsterMinersTests */
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+00A1A0862C3D4E5F00000001 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+00A1A0542C3D4E5F00000001 /* weapons.json in Resources */,
+00A1A0552C3D4E5F00000001 /* enemies.json in Resources */,
+00A1A0562C3D4E5F00000001 /* upgrades.json in Resources */,
+00A1A0572C3D4E5F00000001 /* biomes.json in Resources */,
+00A1A05F2C3D4E5F00000001 /* LaunchScreen.storyboard in Resources */,
+00A1A0602C3D4E5F00000001 /* Localizable.strings in Resources */,
+00A1A0612C3D4E5F00000001 /* Localizable.stringsdict in Resources */,
+00A1A0622C3D4E5F00000001 /* Localizable.strings in Resources */,
+00A1A0632C3D4E5F00000001 /* Localizable.stringsdict in Resources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+00A1A08B2C3D4E5F00000002 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+00A1A0762C3D4E5F00000001 /* Localizable.strings in Resources */,
+00A1A0772C3D4E5F00000001 /* Localizable.stringsdict in Resources */,
+00A1A0782C3D4E5F00000001 /* Localizable.strings in Resources */,
+00A1A0792C3D4E5F00000001 /* Localizable.stringsdict in Resources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+00A1A0882C3D4E5F00000002 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+00A1A01B2C3D4E5F00000001 /* AppDelegate.swift in Sources */,
+00A1A01C2C3D4E5F00000001 /* SceneDelegate.swift in Sources */,
+00A1A01D2C3D4E5F00000001 /* GameViewController.swift in Sources */,
+00A1A0302C3D4E5F00000001 /* Time.swift in Sources */,
+00A1A0312C3D4E5F00000001 /* InputState.swift in Sources */,
+00A1A0362C3D4E5F00000001 /* InputStateActor.swift in Sources */,
+00A1A0322C3D4E5F00000001 /* RNG.swift in Sources */,
+00A1A0332C3D4E5F00000001 /* SaveService.swift in Sources */,
+00A1A0342C3D4E5F00000001 /* LocalizationService.swift in Sources */,
+00A1A0352C3D4E5F00000001 /* SimulationCoordinator.swift in Sources */,
+00A1A0372C3D4E5F00000001 /* Bootstrap.swift in Sources */,
+00A1A0382C3D4E5F00000001 /* Entity.swift in Sources */,
+00A1A0392C3D4E5F00000001 /* World.swift in Sources */,
+00A1A03A2C3D4E5F00000001 /* World+Access.swift in Sources */,
+00A1A03B2C3D4E5F00000001 /* System.swift in Sources */,
+00A1A03C2C3D4E5F00000001 /* MovementSystem.swift in Sources */,
+00A1A03D2C3D4E5F00000001 /* CombatSystem.swift in Sources */,
+00A1A03E2C3D4E5F00000001 /* SpawningSystem.swift in Sources */,
+00A1A03F2C3D4E5F00000001 /* MiningSystem.swift in Sources */,
+00A1A0402C3D4E5F00000001 /* UpgradeSystem.swift in Sources */,
+00A1A0412C3D4E5F00000001 /* LootSystem.swift in Sources */,
+00A1A0422C3D4E5F00000001 /* ParticleSystem.swift in Sources */,
+00A1A0432C3D4E5F00000001 /* AudioSystem.swift in Sources */,
+00A1A0442C3D4E5F00000001 /* LightingSystem.swift in Sources */,
+00A1A0452C3D4E5F00000001 /* EnemySystem.swift in Sources */,
+00A1A0462C3D4E5F00000001 /* BossSystem.swift in Sources */,
+00A1A0472C3D4E5F00000001 /* AssetLoader.swift in Sources */,
+00A1A0482C3D4E5F00000001 /* MeshLibrary.swift in Sources */,
+00A1A0492C3D4E5F00000001 /* Renderer.swift in Sources */,
+00A1A04A2C3D4E5F00000001 /* PostProcessor.swift in Sources */,
+00A1A04B2C3D4E5F00000001 /* ArenaGenerator.swift in Sources */,
+00A1A04C2C3D4E5F00000001 /* EntityFactory.swift in Sources */,
+00A1A04D2C3D4E5F00000001 /* UpgradeCatalog.swift in Sources */,
+00A1A04E2C3D4E5F00000001 /* EnemyCatalog.swift in Sources */,
+00A1A04F2C3D4E5F00000001 /* MainMenuViewModel.swift in Sources */,
+00A1A0502C3D4E5F00000001 /* MainMenuView.swift in Sources */,
+00A1A0512C3D4E5F00000001 /* SettingsView.swift in Sources */,
+00A1A0522C3D4E5F00000001 /* MetaProgressionView.swift in Sources */,
+00A1A0532C3D4E5F00000001 /* HUDOverlayView.swift in Sources */,
+00A1A0582C3D4E5F00000001 /* Shaders.metal in Sources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+00A1A08A2C3D4E5F00000002 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+00A1A0722C3D4E5F00000001 /* GameplayTests.swift in Sources */,
+00A1A0732C3D4E5F00000001 /* SaveTests.swift in Sources */,
+00A1A0742C3D4E5F00000001 /* LocalizationTests.swift in Sources */
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+00A1A0922C3D4E5F00000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 00A1A07E2C3D4E5F00000001 /* AsterMiners */; targetProxy = 00A1A0912C3D4E5F00000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+00A1A0912C3D4E5F00000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 00A1A07D2C3D4E5F00000001 /* Project object */; proxyType = 1; remoteGlobalIDString = 00A1A07E2C3D4E5F00000001; remoteInfo = AsterMiners; };
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+00A1A09B2C3D4E5F00000001 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+INFOPLIST_FILE = AsterMiners/Tests/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.AsterMiners;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 6.0;
+TARGETED_DEVICE_FAMILY = 1;
+};
+name = Debug;
+};
+00A1A09C2C3D4E5F00000001 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+INFOPLIST_FILE = AsterMiners/Tests/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.AsterMiners;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 6.0;
+TARGETED_DEVICE_FAMILY = 1;
+};
+name = Release;
+};
+00A1A09F2C3D4E5F00000001 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = AsterMiners/Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.AsterMinersTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 6.0;
+TEST_HOST = "";
+};
+name = Debug;
+};
+00A1A0A02C3D4E5F00000001 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+INFOPLIST_FILE = AsterMiners/Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.AsterMinersTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 6.0;
+TEST_HOST = "";
+};
+name = Release;
+};
+00A1A0A12C3D4E5F00000001 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ENABLE_MODULES = YES;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+CODE_SIGN_IDENTITY = "";
+CODE_SIGN_STYLE = Automatic;
+ENABLE_BITCODE = NO;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+ONLY_ACTIVE_ARCH = YES;
+SWIFT_VERSION = 6.0;
+};
+name = Debug;
+};
+00A1A0A22C3D4E5F00000001 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ENABLE_MODULES = YES;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+CODE_SIGN_IDENTITY = "";
+CODE_SIGN_STYLE = Automatic;
+ENABLE_BITCODE = NO;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+SWIFT_VERSION = 6.0;
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+00A1A09A2C3D4E5F00000001 /* Build configuration list for PBXNativeTarget "AsterMiners" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00A1A09B2C3D4E5F00000001 /* Debug */,
+00A1A09C2C3D4E5F00000001 /* Release */
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Debug;
+};
+00A1A09D2C3D4E5F00000001 /* Build configuration list for PBXNativeTarget "AsterMinersTests" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00A1A09F2C3D4E5F00000001 /* Debug */,
+00A1A0A02C3D4E5F00000001 /* Release */
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Debug;
+};
+00A1A09E2C3D4E5F00000001 /* Build configuration list for PBXProject "AsterMiners" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+00A1A0A12C3D4E5F00000001 /* Debug */,
+00A1A0A22C3D4E5F00000001 /* Release */
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Debug;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = 00A1A07D2C3D4E5F00000001 /* Project object */;
+}

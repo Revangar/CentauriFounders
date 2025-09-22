@@ -1,0 +1,23 @@
+[
+  {
+    "identifier": "aurora_beam",
+    "displayNameKey": "weapon_aurora_beam",
+    "fireRate": 2.5,
+    "damage": 12,
+    "type": "beam"
+  },
+  {
+    "identifier": "fracture_burst",
+    "displayNameKey": "weapon_fracture_burst",
+    "fireRate": 1.2,
+    "damage": 24,
+    "type": "shotgun"
+  },
+  {
+    "identifier": "orbital_shield",
+    "displayNameKey": "weapon_orbital_shield",
+    "fireRate": 0.6,
+    "damage": 8,
+    "type": "orbital"
+  }
+]
